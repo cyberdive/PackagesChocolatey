@@ -1,16 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $fileLocation = Join-Path $toolsDir 'Archi-Win64-Setup-4.6.0.exe'
-$url        = 'https://www.archimatetool.com/downloads/19ef8fac18b/Archi-Win32-Setup-4.6.0.exe' # download url, HTTPS preferred
-$url64      = 'https://www.archimatetool.com/downloads/19ef8fac18b/Archi-Win64-Setup-4.6.0.exe' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'EXE' #only one of these: exe, msi, msu
- #file         = $fileLocation
- url=$url
- url64bit=$url64
+ file         = $fileLocation
+ 
 
   softwareName  = 'archi2*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
   checksum      = ''
