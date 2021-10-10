@@ -1,0 +1,33 @@
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco feature enable -n allowGlobalConfirmation
+
+#bureautique
+choco install openvpn  wps-office-free adobereader jre8 firefox adblockplus-firefox  freemind 7zip.install vlc skype paint.net pdfcreator thunderbird visioviewer2016 qdir winamp greenshot cdburnerxp yed adblockpluschrome ganttproject openoffice gimp notepadplusplus.install 
+
+#technicien
+choco install mremoteng  sysinternals  filezilla   winscp.install   fiddler audacity winmerge   tightvnc  handbrake.install pstools  nugetpackagemanager windbg checksum vmwarevsphereclient angryip xming  crystaldiskmark speedfan winmerge-jp iperf3   tcpview logparserstudio insted camstudio camtasia win32diskimager superorca   secunia.psi xmlconverter sqlio fastresolver.install pingplotter dotpeek windirstat teamviewer  googlechrome flashplayerplugin  putty.install calibre wireshark  
+
+#jeux
+choco install dosbox scummvm
+
+#programmation java 
+choco install eclipse netbeans androidstudio
+
+#Programmation c++
+choco install codeblocks git sourcetree doxygen.install heidisql vscode-powershell vscode powershell-core
+ 
+ 
+choco install thunderbird greenshot fiddler audacity winmerge heidisql qdir windirstat winamp 
+#
+ celestia stellarium  googleearth  windows10-media-creation-tool 
+
+evernote dropbox opera
+
+#programmation .net / xamarin / nuget
+choco install visualstudio2017community
+choco install blender 
+
+#virtualisation + memu
+choco install virtualbox vmware-workstation-player
