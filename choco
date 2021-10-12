@@ -16,7 +16,7 @@ choco install dosbox scummvm
 choco install eclipse netbeans androidstudio
 
 #Programmation c++
-choco install codeblocks git sourcetree doxygen.install heidisql vscode-powershell vscode powershell-core
+choco install codeblocks git sourcetree doxygen.install heidisql vscode-powershell vscode powershell-core postman soapui
  
  
 choco install thunderbird greenshot fiddler audacity winmerge heidisql qdir windirstat winamp 
