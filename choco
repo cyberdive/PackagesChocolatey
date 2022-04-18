@@ -13,7 +13,7 @@ choco install mremoteng  sysinternals  filezilla   winscp.install   fiddler winm
 calibre
 
 #jeux
-choco install dosbox scummvm steam
+choco install dosbox scummvm steam epicgameslauncher origin ubisoft-connect
 
 #Programmation Python
 choco install pycharm-community postman git
