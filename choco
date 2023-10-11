@@ -4,10 +4,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco feature enable -n allowGlobalConfirmation
 
 #bureautique
-choco install openvpn onlyoffice adobereader jre8 firefox adblockplus-firefox  freemind 7zip.install vlc skype paint.net pdfcreator thunderbird visioviewer2016 qdir winamp greenshot cdburnerxp yed adblockpluschrome ganttproject gimp notepadplusplus.install drawio audacity
+choco install openvpn onlyoffice adobereader jre8 firefox adblockplus-firefox  freemind 7zip.install vlc skype paint.net pdfcreator thunderbird visioviewer2016 qdir winamp greenshot cdburnerxp yed adblockpluschrome ganttproject gimp notepadplusplus.install drawio audacity windirstat
 
 #technicien
-choco install mremoteng  sysinternals  filezilla   winscp.install   fiddler winmerge   tightvnc  handbrake.install pstools  nugetpackagemanager windbg checksum vmwarevsphereclient angryip xming  crystaldiskmark speedfan winmerge-jp iperf3   tcpview logparserstudio insted camstudio camtasia win32diskimager superorca   secunia.psi xmlconverter sqlio fastresolver.install pingplotter dotpeek windirstat teamviewer  googlechrome flashplayerplugin  putty.install wireshark  
+choco install mremoteng  sysinternals  filezilla   winscp.install   fiddler winmerge   tightvnc   pstools  nugetpackagemanager windbg checksum vmwarevsphereclient angryip xming  crystaldiskmark speedfan winmerge-jp iperf3   tcpview logparserstudio insted win32diskimager superorca   secunia.psi xmlconverter sqlio fastresolver.install pingplotter dotpeek  googlechrome flashplayerplugin  putty.install wireshark  
+
+#montage video
+choco install obs-studio handbrake.install camstudio camtasia 
 
 #serveurs
 calibre
